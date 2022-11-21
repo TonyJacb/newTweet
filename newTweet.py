@@ -34,4 +34,4 @@ def check_for_tweets(username):
 #Loop the function for WAIT_TIME seconds
 ticker = threading.Event()
 while not ticker.wait(WAIT_TIME):
-    check_for_tweets("tonyjacob_")
+    check_for_tweets("elonmusk")
